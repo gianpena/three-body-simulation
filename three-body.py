@@ -63,13 +63,13 @@ positions = [{'A': p1, 'B': p2, 'C': p3}]
 t = 0
 while t <= 50:
     acc_AB = acceleration(gravitational_force(p1,p2))
-    acc_BA = acceleration(opposite(gravitational_force(p1,p2)))
+    acc_BA = opposite(acc_AB)
 
     acc_AC = acceleration(gravitational_force(p1,p3))
-    acc_CA = acceleration(opposite(gravitational_force(p1,p3)))
+    acc_CA = opposite(acc_AC)
 
     acc_BC = acceleration(gravitational_force(p2,p3))
-    acc_CB = acceleration(opposite(gravitational_force(p2,p3)))
+    acc_CB = opposite(acc_BC)
 
     new_pos_A = position(p1, v1, add(acc_AB, acc_AC))
     new_pos_B = position(p2, v2, add(acc_BA, acc_BC))
