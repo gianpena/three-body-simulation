@@ -110,9 +110,9 @@ def animate_three_body(positions):
     line_B, = ax.plot([], [], 'g-', linewidth=1, alpha=0.7, label='Body B')
     line_C, = ax.plot([], [], 'b-', linewidth=1, alpha=0.7, label='Body C')
 
-    point_A, = ax.plot([], [], 'ro', markersize=8, markeredgecolor='white', markeredgewidth=1)
-    point_B, = ax.plot([], [], 'go', markersize=8, markeredgecolor='white', markeredgewidth=1)
-    point_C, = ax.plot([], [], 'bo', markersize=8, markeredgecolor='white', markeredgewidth=1)
+    point_A, = ax.plot([], [], 'ro', markersize=8, markeredgewidth=1)
+    point_B, = ax.plot([], [], 'go', markersize=8, markeredgewidth=1)
+    point_C, = ax.plot([], [], 'bo', markersize=8, markeredgewidth=1)
 
     ax.set_xlabel('X Position')
     ax.set_ylabel('Y Position')
