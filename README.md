@@ -17,4 +17,4 @@ python three-body.py
 2. Enter your inputs via standard input.
 
 ## Demo
-I will place a demo here once I find some nice inputs.
+https://github.com/user-attachments/assets/37d7ecc7-b2c3-400c-b625-a45cf2fb4a6b

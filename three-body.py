@@ -15,7 +15,7 @@ timestep = float(input())
 # for timestep do not choose absurdly small values
 # lest floating point arithmetic bite you in the ass
 
-G = 10
+G = 1
 
 def distance(p1,p2):
     x1,y1 = p1
